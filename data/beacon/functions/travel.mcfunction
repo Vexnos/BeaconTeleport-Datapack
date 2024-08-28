@@ -4,6 +4,7 @@ effect give @a[tag=travelling] blindness 8 0 true
 effect give @a[tag=travelling] nausea 8 0 true
 effect give @a[tag=travelling] resistance 10 9 true
 execute at @a run playsound block.beacon.power_select master @a[tag=!travelling]
+execute at @a run playsound entity.allay.death master @a[tag=!travelling] ~ ~ ~ 100 0
 execute if score crownPeak crownPeak matches 1.. run schedule function beacon:crownpeakarrive 4s
 execute if score felora felora matches 1.. run schedule function beacon:feloraarrive 4s
 execute if score tartarus tartarus matches 1.. run schedule function beacon:tartarusarrive 4s
