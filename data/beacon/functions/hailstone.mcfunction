@@ -27,5 +27,7 @@ execute at @a[tag=travelling,scores={xp=1..}] run playsound minecraft:entity.exp
 
 xp add @a[tag=travelling,scores={xp=1..}] -1 levels
 
-scoreboard players set hailstone hailstone 1
-schedule function beacon:travel 9s
+execute as @a[tag=travelling] run scoreboard players add travellers travellers 1
+
+execute if score travellers travellers matches 1.. run scoreboard players set hailstone hailstone 1
+execute if score travellers travellers matches 1.. run schedule function beacon:travel 9s

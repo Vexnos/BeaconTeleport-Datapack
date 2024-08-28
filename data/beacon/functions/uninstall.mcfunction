@@ -6,3 +6,4 @@ scoreboard objectives remove oakendale
 scoreboard objectives remove hailstone
 scoreboard objectives remove meridian
 scoreboard objectives remove xp
+scoreboard objectives remove travellers
