@@ -1,4 +1,4 @@
-scoreboard players reset crownPeak crownPeak
+scoreboard players reset hyperia hyperia
 effect clear @a[tag=travelling] levitation
-tp @a[tag=travelling] -705 300 579
+tp @a[tag=travelling] 1844 310 -289
 tag @a[tag=travelling] remove travelling

@@ -1,4 +1,4 @@
-scoreboard players reset crownPeak crownPeak
+scoreboard players reset felora felora
 effect clear @a[tag=travelling] levitation
-tp @a[tag=travelling] -705 300 579
+tp @a[tag=travelling] -3807 303 -64
 tag @a[tag=travelling] remove travelling

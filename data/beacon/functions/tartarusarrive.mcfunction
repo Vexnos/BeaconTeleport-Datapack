@@ -1,4 +1,4 @@
-scoreboard players reset crownPeak crownPeak
+scoreboard players reset tartarus tartarus
 effect clear @a[tag=travelling] levitation
-tp @a[tag=travelling] -705 300 579
+tp @a[tag=travelling] -56 239 2434
 tag @a[tag=travelling] remove travelling

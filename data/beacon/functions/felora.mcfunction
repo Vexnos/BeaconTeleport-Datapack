@@ -6,5 +6,5 @@ execute positioned -1291 91 -1301 run tag @a[distance=..10] add travelling
 execute positioned 61 86 4606 run tag @a[distance=..10] add travelling
 execute positioned -734 133 -4043 run tag @a[distance=..10] add travelling
 execute at @a[tag=travelling] run playsound beacon:beaconteleport master @a[tag=travelling]
-scoreboard players set crownPeak crownPeak 1
+scoreboard players set felora felora 1
 schedule function beacon:travel 9s

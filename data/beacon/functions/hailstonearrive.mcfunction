@@ -1,4 +1,4 @@
-scoreboard players reset crownPeak crownPeak
+scoreboard players reset hailstone hailstone
 effect clear @a[tag=travelling] levitation
-tp @a[tag=travelling] -705 300 579
+tp @a[tag=travelling] -735 333 -4043
 tag @a[tag=travelling] remove travelling
