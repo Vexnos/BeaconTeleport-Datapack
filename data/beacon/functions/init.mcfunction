@@ -7,5 +7,12 @@ scoreboard objectives add hailstone dummy
 scoreboard objectives add meridian dummy
 scoreboard objectives add xp level
 scoreboard objectives add travellers dummy
+scoreboard objectives add t_crownPeak trigger
+scoreboard objectives add t_felora trigger
+scoreboard objectives add t_tartarus trigger
+scoreboard objectives add t_hyperia trigger
+scoreboard objectives add t_oakendale trigger
+scoreboard objectives add t_hailstone trigger
+scoreboard objectives add t_meridian trigger
 xp set @a 0 levels
 xp set @a 0 points

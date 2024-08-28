@@ -1,3 +1,5 @@
+scoreboard players reset @a t_crownPeak
+
 execute positioned -704 100 579 run tag @a[distance=..10,scores={xp=1..}] add travelling
 execute positioned -55 39 2434 run tag @a[distance=..10,scores={xp=1..}] add travelling
 execute positioned 1843 110 -289 run tag @a[distance=..10,scores={xp=1..}] add travelling

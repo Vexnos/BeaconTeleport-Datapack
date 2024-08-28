@@ -7,3 +7,10 @@ scoreboard objectives remove hailstone
 scoreboard objectives remove meridian
 scoreboard objectives remove xp
 scoreboard objectives remove travellers
+scoreboard objectives remove t_crownPeak
+scoreboard objectives remove t_felora
+scoreboard objectives remove t_tartarus
+scoreboard objectives remove t_hyperia
+scoreboard objectives remove t_oakendale
+scoreboard objectives remove t_hailstone
+scoreboard objectives remove t_meridian
