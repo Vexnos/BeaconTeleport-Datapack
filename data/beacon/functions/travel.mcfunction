@@ -1,7 +1,7 @@
 effect give @a[tag=travelling] levitation infinite 49 true
-effect give @a[tag=travelling] glowing 10 0 true
-effect give @a[tag=travelling] blindness 10 0 true
-effect give @a[tag=travelling] nausea 10 0 true
+effect give @a[tag=travelling] glowing 9 0 true
+effect give @a[tag=travelling] blindness 9 0 true
+effect give @a[tag=travelling] nausea 9 0 true
 effect give @a[tag=travelling] resistance 10 9 true
 execute at @a run playsound block.beacon.power_select master @a[tag=!travelling]
 execute at @a run playsound entity.allay.death master @a[tag=!travelling] ~ ~ ~ 100 0
