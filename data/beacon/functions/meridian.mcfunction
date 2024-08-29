@@ -32,4 +32,5 @@ xp add @a[tag=travelling,scores={xp=1..}] -1 levels
 execute as @a[tag=travelling] run scoreboard players add travellers travellers 1
 
 execute if score travellers travellers matches 1.. run scoreboard players set meridian meridian 1
+execute if score travellers travellers matches 1.. run title @a[tag=travelling] actionbar ["",{"text":"Travelling to ","color":"green"},{"text":"Meridian","color":"gold"},{"text":" standby...","color":"green"}]
 execute if score travellers travellers matches 1.. run schedule function beacon:travel 9s
